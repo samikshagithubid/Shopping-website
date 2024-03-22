@@ -1,0 +1,138 @@
+
+* {
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 5px 10px 30px 0px #562548;
+    background-image: linear-gradient(135deg, #AAABAE 10%, #ac6186 100%);
+    color: white; /* Set text color */
+    padding: 10px;
+
+}
+.cart-header {
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+
+.miniature-img {
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add some spacing between the image and text */
+    margin-left:30px
+}
+
+.product-details {
+    flex:2;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+
+.gsid{
+    margin-right: -14rem;
+    display: flex;
+    text-align: center;
+    text-justify: center;
+}
+/* .counter {
+    display: flex;
+    align-items: center;
+    margin-left:30rem;
+    
+}
+
+.counter button {
+    padding: 5px;
+}
+
+.counter span {
+    margin: 0 10px;
+} */
+
+
+/* heart */
+
+
+
+.nav-heart i
+{
+    font-size: 25px;
+    height: 30px;
+    display: flex;
+    margin-left: 40px;
+    margin-right: 1.6px;
+  
+}
+
+
+.nav-heart
+ {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.price-section {
+    /* Styling for price section */
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px; /* Added top margin for better spacing */
+    flex: 1; /* Adjust the flex value as needed */
+    text-align: right; /* Align price to the right */
+    margin-right:60px;
+}
+ .checkout-section {
+    margin-left: 1000px;
+    padding-top: 10px;
+    margin-top: 50px;
+    color: black bold;
+    font-weight: 100;
+    font-size: x-large;
+    font-style: oblique;
+ }
+ 
+ .checkout-section button {
+   margin-top: 10px;
+    padding: 10px 50px;
+    border-radius: 5px;
+    /* Зелений колір, можна змінити */
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 5px 10px 30px 0px #562548;
+  background-image: linear-gradient(135deg, #AAABAE 10%, #ac6186 100%);
+  margin-right: -100px;
+  
+ }
+
+
+ .button1{
+    height:30px;
+    border-radius: 100%;
+    width: 30px;
+   /* font-size: xx-large ; */
+   font-weight:bold ;
+   padding-top:  50px;
+
+ }

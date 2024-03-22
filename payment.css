@@ -1,0 +1,581 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 60px;
+    /* background-color:#975E67; */
+    background-image: linear-gradient(135deg, #0a0a0a 10%, #975e6b 100%);
+
+    color: white;
+    display: flex;
+    align-items: center;
+     /* This aligns items vertically within the flex container */
+     justify-content:flex-start;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url("amazon_logo.png");
+    background-size: contain;
+    height: 50px;
+    width: 100px;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+/**box 2**/
+.nav-address {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    margin-left: 0px; 
+}
+.nav-icons{
+    margin-left: 50%;
+}
+.add-zero{
+        font-family: "Stint Ultra Expanded", serif;
+        font-weight: bold;
+        font-style: normal;
+
+}
+.add-first, .add-first1, .add-first2 {
+    font-size: 1.2rem;
+    color: rgb(250, 250, 250);
+    margin-right: 80px; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.add-first:first-child {
+    margin-left: 0; /* Remove left margin for the first item */
+}
+
+
+
+
+
+.add-sec {
+   
+    font-size:1rem ;
+    margin-left: 3px;
+}
+.add-sec2 {
+   
+    font-size:1rem ;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+.nav-search{
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+  background-color: pink;
+  width: 620px;
+  height:40px;
+  border-radius:4px;
+}
+.search-select{
+    background-color: #f2f3f3;
+    width:50px;
+    height:40px;
+    text-align: center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    border:none;
+}
+.search-input {
+  width: 100%;
+  height:40px;
+  font-size:1rem;
+  border:none;
+}
+
+.search-icon {
+width:50px;
+height:40px;
+display:flex;
+justify-content: space-evenly;
+align-items: center;
+font-size:1.2rem;
+background-color:#febd68;
+border-top-right-radius:4px;
+border-bottom-right-radius:4px;
+color:#0f1111;
+}
+
+
+.nav-search:hover {
+  border: 2px solid orange;
+}
+
+/**box 4**/
+span{
+    font-size: 0.7rem;
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/**box 6**/
+.nav-icons {
+    display: flex;
+    justify-content: flex-start; /* Align items towards the left */
+}
+
+.nav-cart i,
+.nav-bell i,
+.nav-heart i,
+.nav-person i {
+    font-size: 25px;
+    height: 30px;
+    display: flex;
+    margin-left: 40px;
+    margin-right: 1.6px;
+}
+
+.nav-cart,
+.nav-bell,
+.nav-heart,
+.nav-person {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+
+/** panel **/
+/* .panel{
+   height: 40px; 
+   background-color: #222f3d;
+   display: flex;
+   color:white;
+   align-items:center;
+   justify-content: space-evenly;
+}
+
+.panel-ops p{
+    display: inline;
+    margin-left:15px;
+}
+.panel-ops {
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+} */
+
+
+/**hero section**/
+.hero-section{
+    background-image: url("WhatsApp\ Image\ 2024-03-17\ at\ 5.15.08\ PM.jpg");
+    background-size: cover;
+    height:350px;
+   display:flex;
+   justify-content: center;
+   align-items: flex-end;
+}
+
+/* * form* */
+
+
+  
+  
+.nav {
+    background-color: white;
+    /* padding: 40px; */
+    height: 20px;
+
+  }
+  
+  .Logo{
+    padding:5px;
+  }
+  .img1 {
+    display: block; /* Ensure the image behaves as a block element */
+    margin: 0 auto; /* Center the image horizontally */
+    max-width: 20vw; /* Ensure the image doesn't exceed its container's width */
+    max-height: 5vh;
+  
+  }
+  .nav1 {
+    display: flex;
+    justify-content: center;
+    padding-right:77rem;
+  }
+
+/* .hr3{
+    margin-top: 40p
+    width: 500px;
+    font-weight: bold;
+    height: 1px; 
+    border: none; 
+    background-color: grey; 
+} */
+
+
+
+/* 
+.hr4{
+    width: 500px; 
+    font-weight: bold;
+    height: 1px; 
+    border: none; 
+    background-color: grey; 
+} */
+
+.method{
+    display: flex; 
+    text-align: center;
+    color:#0a0a0a;
+    font-weight: bold;
+    margin-left:70px;
+    font-size: large;
+    margin-bottom:20px;
+    margin-left: 0px;
+}
+/* options */
+.options {
+    display: flex; 
+    text-align: center;
+    color:#0a0a0a;
+    font-weight: bold;
+  
+}
+
+.options input[type="radio"] {
+    margin-top: 3px;
+    margin-right: 8px; /* Add some spacing between radio buttons */
+    margin-left: 60px; /* Add some spacing between radio buttons */
+    margin-bottom:50px;
+} 
+
+ 
+  
+  
+  .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+   width:100%;
+   height:400px;
+/* padding: 20px 0px 15px; */
+padding-right: 340px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the start (left) */
+    margin-bottom: 10px;
+}
+
+.row label {
+    margin-bottom: 5px;
+    font-weight: bolder; /* Add some spacing between label and input */
+}
+
+
+.row input {
+    flex: 1; /* Fill remaining space */
+    padding: 10px;
+    width:400px;
+    border: 1px solid bolder #ccc;
+    border-radius: 8px;
+}
+
+.row .file-input {
+   margin-top:25px;
+    padding:50px; 
+    width: 400px;
+    border: 3px dotted  #ccc;
+    border-radius: 8px;
+    text-align: center;
+}
+.row .file-upload {
+    position: relative;
+}
+
+.row .fa-cloud-upload-alt {
+    position: absolute;
+    top: 50px; /* Adjust as needed */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%);
+}
+
+
+
+.submit {
+    padding-right:150rem;
+    background-image: linear-gradient(135deg, #975e6b 10%, #AAABAE 100%);
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px ;
+    border-radius: 8px;
+    background-color:#975E67;
+    color: white;
+    /* font-weight: bold; */
+    height: 40px; /* Set fixed height */
+    width: 400px; /* Set fixed width */
+}
+.submit:hover{
+    background-image: linear-gradient(135deg, #5a5a5c 10%, #4f2c3e 100%);
+}
+
+.checkbox-container {
+    padding-right:6rem;
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-container input {
+    margin-right: 6px;
+    padding-right:10rem;
+}
+
+.info{
+    margin-top: -15px;
+
+    font-weight: lighter;
+    font-size: small;
+    color:grey;
+}
+.r-2-1{
+    display:flex;
+    border: 2px #4f2c3e;
+    border-radius: 8px;
+}
+/* *hero section*
+.hero-section{
+    background-image: url("img.jpg");
+    background-size: cover;
+    height:350px;
+   display:flex;
+   justify-content: center;
+   align-items: flex-end;
+
+
+} */
+/* .hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display:flex;
+    align-items: center;  
+    justify-content: space-evenly;    
+   width: 80%;
+  
+
+}
+.hero-msg a{
+    color: #007185; 
+  margin-bottom:25px;
+} */
+
+
+/**shop secton **/
+
+
+.shop-section{
+   display: flex;  /** making boxes vertical **/
+   flex-wrap: wrap;/** boxes line by line 4 top-bottom **/
+  justify-content: space-evenly;
+  background-color:white;
+}
+.block{
+    width: 50%;
+}
+/**order summary**/
+
+.summary {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center; /* Center items vertically */
+    width: 50%; /* Adjust width as needed */
+    margin-top: -100px; /* Adjust margin as needed */
+    position: absolute; /* Position absolutely */
+    top: 120%; /* Align to the vertical center */
+    right: 9%; /* Align to the right */
+    transform: translate(0, -50%); /* Center vertically */
+    padding: 90px;
+   
+}
+.order-summary-title {
+    margin-top: -50px; /* Remove default top margin */
+    font-weight: bold; /* Make the text bold */
+}
+.Acontain {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.price {
+    margin-left: 20px; /* Adjust the space between text1 and price */
+    margin-bottom:105px;
+    font-weight: bold; /* Make text1 bold */
+    font-size: larger;
+}
+
+.Acontain img {
+    white-space: nowrap;
+    max-width: 100px; 
+    margin-right: -60px;
+    margin-bottom: 90px;
+    border: 2px solid lightslategray;
+}
+
+
+
+.text {
+    border-bottom: 2px solid #ccc; /* Border at the bottom of each item */
+    padding-bottom: 100px;
+    margin-top: 100px; 
+    margin-bottom: 200px;
+   margin-right:-190px;
+    text-justify: auto;
+    
+}
+
+
+.text1 {
+  margin-left:90px;
+  margin-right: 20px;
+   /* Add margin between items */
+     margin-bottom:100px;
+    text-align: left; /* Align text to the left */
+    font-weight: bold; /* Make text1 bold */
+    font-size: larger;
+}
+
+.text2 {
+    margin-left:90px;
+  margin-right: 20px;
+   /* Add margin between items */
+     /* margin-bottom:100px;
+     margin-top: 40px; */
+    text-align: left; /* Adjust margin between text1 and text2 */
+}
+
+.total-price {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+
+
+.rotate {
+    animation: rotation 8s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+
+
+
+
+
+  
+  footer{
+    margin-top:15px;
+}
+.foot-panel1{
+    background-image: linear-gradient(135deg, #0a0a0a 10%, #975e6b 100%);
+    color: rgb(255, 255, 255);
+    height:50px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2 {
+    /**parent container**/
+    background-color: #AAABAE;
+    color: black;
+    font-weight: bolder;
+    height: 300px; /**height of grey box**/
+    display: flex; /**align one by one boxes**/
+    justify-content: space-evenly;
+}
+
+.foot-panel2 .content {
+    margin-top: 50px; /* Adjust margin-top value as needed */
+}
+
+
+
+ul{
+    margin-top:20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top:10px;
+    color:black;
+}
+
+.foot-panel3{/**parent container**/
+    background-color: #E8EAEB;
+    color:white;
+  border-top:0.5px solid black;/**line**/
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+    }
+
+    .logo {
+        background-image: url("amazon_logo.png");
+        background-size: contain;
+        height: 50px;
+        width:100x;
+        
+    }
+    .foot-panel4{/**parent container**/
+        background-color: #0f1111;
+        color:white;
+      height: 80px;
+  
+        }
+    .pages{
+    font-size: 0.7rem;
+    text-align: center;
+    padding:10px;
+    
+    }
+    .copyright{
+        font-size: 0.7rem;
+        text-align: center;
+        padding:5px;
+    }

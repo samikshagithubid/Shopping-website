@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Register</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+		integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="./register.css">
+
+</head>
+
+<body>
+	<!-- partial:index.partial.html -->
+	<div class="box-form">
+		<div class="left" style="width: 480px;">
+			<div class="overlay" style="margin-top: 60px;">
+				<h1
+					style="color: #FBF4EF; font-size:5cap; margin-left: 10px; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+					Welcome Sgsitians</h1>
+				<br><br>
+				<p
+					style="font-size: 2cap;width: 300px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align:justify;">
+					Welcome to the SGSITS College Campus Barter Sphere, where the spirit
+					of discovery meets the thrill of bartering. Our exclusive platform
+					is designed to bring together the SGSITS College community, offering
+					a diverse array of items, from rare collectibles to everyday essentials.</p>
+			</div>
+		</div>
+
+
+		<div class="right">
+			<h5 style="margin-left: -50px; margin-bottom: 89px;">Register</h5>
+			<div class="inputs">
+				<input type="text" placeholder="name*" required>
+				<div style="display: flex; justify-content: space-between; margin-bottom: 0px;">
+					<input type="email " placeholder="email address*" style="width: 40%; "required>
+					<input type="number" placeholder="phone number*" style="width: 40%;"required>
+				</div>
+				<div style="display: flex; justify-content: space-between; margin-bottom: 0px;">
+					<input type="number" placeholder="graduation year*" style="width: 40%; "required>
+					<!-- <input type="text" placeholder="branch" style="width: 40%;"> -->
+					<select name="branch" aria-placeholder="branch*" style="width: 45%; border-left: 0px; border-top: 0px; border-right: 0px; padding-top: 30px; color: gray; font-size: medium;" required>
+						<option value="">branch*</option>
+						<option value="">CSE</option>
+						<option value="">IT</option>
+						<option value="">ECE</option>
+						<option value="">EE</option>
+						<option value="">EI</option>
+						<option value="">Mech</option>
+						<option value="">Civil</option>
+						<option value="">BME</option>
+						<option value="">IP</option>
+						<option value="">M.Tech</option>
+						<option value="">Other</option>
+					</select>
+				</div>
+				<input type="password" placeholder="password*" required>
+			</div>
+			<p style="margin-left: 27%;">--------------OR--------------</p>
+			<div class="GoogleLogin">
+				<button class="btn" ><i class="fa-brands fa-google fa-lg"> <a href="https://www.google.com/" style="color: white; text-decoration: none;">Continue  with  Google</a></i></button>
+			</div>
+			<br><br>
+
+			<div class="remember-me--forget-password">
+
+				<label>
+					<input type="checkbox" name="item" checked />
+					<span class="text-checkbox">Remember me</span>
+				</label>
+				<p>forgot password?</p>
+			</div>
+
+			<br>
+			<a href="main.html" style="color: white; text-decoration: none;"><button class="btn1">Register</button></a></button>
+		</div>
+
+	</div>
+	<!-- partial -->
+
+</body>
+
+</html>
